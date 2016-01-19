@@ -1687,6 +1687,7 @@ message ContainerInfo {
       HOST = 1;
       BRIDGE = 2;
       NONE = 3;
+      USER = 4;
     }
 
     optional Network network = 2 [default = HOST];
